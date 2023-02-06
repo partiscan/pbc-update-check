@@ -15,6 +15,10 @@ It uses the node apis to get information of the on-chain activity. Written in No
 
 Compile typescript, run the script with node in your update script, exit on error code, otherwise update.
 
+## Configuration
+
+The values in `src/config.ts` can be tweaked to be more or less sensitive. Set `MAIN_API` to point to your node's API endpoint. Set the environment variable `NODE_ADDRESS` to your nodes PBC account.
+
 ## Considerations
 
 Review this carefully before use
