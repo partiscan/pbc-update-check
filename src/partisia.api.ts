@@ -15,7 +15,7 @@ export class PartisiaApi {
   }
 
   public async getBlocksMetrics(shard: Shard): Promise<BlocksMetric> {
-    return await this.request<BlocksMetric>("/metrics/blocks/360", shard);
+    return await this.request<BlocksMetric>("/metrics/blocks/90", shard);
   }
 
   private async request<T>(path: string, shard: Shard): Promise<T> {
