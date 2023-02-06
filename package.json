@@ -1,0 +1,20 @@
+{
+  "name": "pbc-update-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.11.19",
+    "got": "^12.5.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
